@@ -1,0 +1,319 @@
+.hero2-header5 {
+  width: 1808px;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hero2-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero2-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero2-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero2-max-width {
+  width: 1612px;
+  height: 615px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero2-column {
+  gap: 24px;
+  width: 1512px;
+  display: flex;
+  z-index: 1;
+  max-width: 560px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero2-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  animation-name: fadeInLeftBig;
+  flex-direction: column;
+  animation-delay: 0s;
+  animation-duration: 500ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.hero2-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.hero2-container4 {
+  display: flex;
+  align-items: flex-start;
+}
+.hero2-container5 {
+  display: flex;
+  align-items: flex-start;
+}
+.hero2-fragment1 {
+  display: contents;
+}
+.hero2-text16 {
+  width: var(--dl-size-size-maxwidth);
+  display: inline-block;
+  line-height: 1.6;
+}
+.hero2-fragment2 {
+  display: contents;
+}
+.hero2-text17 {
+  display: inline-block;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 900;
+}
+.hero2-fragment3 {
+  display: contents;
+}
+.hero2-text18 {
+  width: 1336px;
+  display: inline-block;
+  line-height: 1.6;
+}
+.hero2-fragment4 {
+  display: contents;
+}
+.hero2-text19 {
+  display: inline-block;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 900;
+}
+.hero2-fragment5 {
+  display: contents;
+}
+.hero2-text20 {
+  width: 1328px;
+  display: inline-block;
+  line-height: 1.6;
+}
+.hero2-fragment6 {
+  display: contents;
+}
+.hero2-text21 {
+  display: inline-block;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 900;
+}
+@media(max-width: 1600px) {
+  .hero2-header5 {
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-unit);
+  }
+  .hero2-text16 {
+    width: var(--dl-size-size-maxwidth);
+    flex-shrink: inherit;
+    line-height: 1.6;
+  }
+}
+@media(max-width: 1200px) {
+  .hero2-header5 {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .hero2-max-width {
+    width: 100%;
+    height: 709px;
+  }
+  .hero2-text16 {
+    width: 925px;
+  }
+  .hero2-text18 {
+    width: 908px;
+  }
+  .hero2-text19 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .hero2-text20 {
+    width: 930px;
+    line-height: 1.6;
+  }
+  .hero2-text21 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+  }
+}
+@media(max-width: 991px) {
+  .hero2-header5 {
+    width: 846px;
+  }
+  .hero2-content {
+    width: 708px;
+  }
+  .hero2-text16 {
+    width: 612px;
+    height: 179px;
+    margin-right: 0px;
+  }
+  .hero2-text18 {
+    width: 653px;
+    height: 191px;
+    line-height: 1.6;
+    margin-right: 0px;
+  }
+  .hero2-text20 {
+    width: 647px;
+    height: 191px;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .hero2-header5 {
+    width: 694px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .hero2-container3 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero2-max-width {
+    width: 494px;
+    height: 618px;
+    justify-content: center;
+  }
+  .hero2-column {
+    width: 100%;
+  }
+  .hero2-content {
+    height: 540px;
+  }
+  .hero2-actions {
+    width: 100%;
+    align-self: flex-start;
+    justify-content: center;
+  }
+  .hero2-text16 {
+    width: 553px;
+    height: 218px;
+    text-align: center;
+    padding-right: 0px;
+  }
+  .hero2-text17 {
+    width: 552px;
+    font-size: 30px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 900;
+  }
+  .hero2-text18 {
+    width: 591px;
+    height: 136px;
+    text-align: left;
+    line-height: 1.6;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .hero2-text19 {
+    font-size: 30px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 900;
+  }
+  .hero2-text20 {
+    width: 552px;
+    height: 130px;
+    text-align: left;
+    line-height: 1.6;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .hero2-text21 {
+    font-size: 30px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 900;
+  }
+}
+@media(max-width: 479px) {
+  .hero2-content {
+    width: 434px;
+    height: 593px;
+    margin-right: 0px;
+  }
+  .hero2-actions {
+    flex-direction: column;
+  }
+  .hero2-container4 {
+    width: 100%;
+  }
+  .hero2-container5 {
+    width: 100%;
+  }
+  .hero2-text16 {
+    width: 478px;
+    height: 352px;
+    font-size: small;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-threeunits);
+  }
+  .hero2-text17 {
+    width: 320px;
+    padding-left: 135px;
+  }
+  .hero2-text18 {
+    width: 455px;
+    height: 110px;
+    font-size: small;
+    text-align: center;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: 0px;
+    background-size: cover;
+  }
+  .hero2-text19 {
+    padding-left: 146px;
+  }
+  .hero2-text20 {
+    width: 434px;
+    height: 144px;
+    font-size: small;
+    text-align: center;
+    margin-right: 0px;
+    padding-left: 92px;
+  }
+  .hero2-text21 {
+    padding-top: 2px;
+    padding-left: 153px;
+  }
+}

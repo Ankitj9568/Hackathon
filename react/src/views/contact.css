@@ -1,0 +1,41 @@
+.contact-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-text1 {
+  display: inline-block;
+}
+.contact-text2 {
+  display: inline-block;
+}
+.contact-text3 {
+  display: inline-block;
+}
+.contact-text4 {
+  display: inline-block;
+}
+.contact-text5 {
+  display: inline-block;
+}
+.contact-text6 {
+  display: inline-block;
+}
+.contact-text7 {
+  display: inline-block;
+}
+.contact-text8 {
+  display: inline-block;
+  text-align: center;
+}
+.contact-text9 {
+  display: inline-block;
+  text-align: center;
+}
+@media(max-width: 479px) {
+  .contact-text9 {
+    text-align: center;
+  }
+}

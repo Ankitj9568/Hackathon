@@ -1,0 +1,15 @@
+.title-container {
+  display: flex;
+  position: relative;
+}
+.title-fragment {
+  display: contents;
+}
+.title-text1 {
+  height: 49px;
+  display: inline-block;
+  text-align: center;
+}
+.title-text2 {
+  color: var(--dl-color-theme-neutral-light);
+}
